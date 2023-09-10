@@ -2,20 +2,20 @@ var path = window.location.pathname
 var title_en = document.title
 var title_cns = document.title;
 
-if (path == "/index.html" || path == "/") {
+if (path == "/snapshot-12.3/index.html" || path == "/snapshot-12.3/") {
     title_cns = "首页";
-} else if (path == "/projects.html") {
+} else if (path == "/snapshot-12.3/projects.html") {
     title_cns = "项目";
-} else if (path == "/music.html") {
+} else if (path == "/snapshot-12.3/music.html") {
     title_cns = "音乐";
-} else if (path == "/lab.html") {
+} else if (path == "/snapshot-12.3/lab.html") {
     title_cns = "实验室";
-} else if (path == "/about.html") {
+} else if (path == "/snapshot-12.3/about.html") {
     title_cns = "关于";
 }
 
-var header_en = "<div class='list'><ul><img src='/images/logo.png'/><li><a href='/index.html'>Home</a></li><li><a href='/projects.html'>Projects</a></li><li><a href='/music.html'>Music</a></li><li><a href='/lab.html'>Lab</a></li><li class='about'><a href='/about.html'>About</a></li></ul></div><h1>" + title_en + "</h1><hr>";
-var header_cns = "<div class='list'><ul><img src='/images/logo.png'/><li><a href='/index.html'>首页</a></li><li><a href='/projects.html'>项目</a></li><li><a href='/music.html'>Music</a></li><li><a href='/lab.html'>实验室</a></li><li class='about'><a href='/about.html'>关于</a></li></ul></div><h1>" + title_cns + "</h1><hr>";
+var header_en = "<div class='list'><ul><img src='/snapshot-12.3/images/logo.png'/><li><a href='/snapshot-12.3/index.html'>Home</a></li><li><a href='/snapshot-12.3/projects.html'>Projects</a></li><li><a href='/snapshot-12.3/music.html'>Music</a></li><li><a href='/snapshot-12.3/lab.html'>Lab</a></li><li class='about'><a href='/snapshot-12.3/about.html'>About</a></li></ul></div><h1>" + title_en + "</h1><hr>";
+var header_cns = "<div class='list'><ul><img src='/snapshot-12.3/images/logo.png'/><li><a href='/snapshot-12.3/index.html'>首页</a></li><li><a href='/snapshot-12.3/projects.html'>项目</a></li><li><a href='/snapshot-12.3/music.html'>Music</a></li><li><a href='/snapshot-12.3/lab.html'>实验室</a></li><li class='about'><a href='/snapshot-12.3/about.html'>关于</a></li></ul></div><h1>" + title_cns + "</h1><hr>";
 
 
 /*
